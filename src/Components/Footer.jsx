@@ -1,13 +1,15 @@
 function Footer() {
   return (
     <footer>
-      <p className="attribution">
+      <p className="attribution py-8">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          {" "}
           Frontend Mentor
         </a>
         . Coded by{" "}
         <a href="https://www.frontendmentor.io/profile/soewaiyanag">
+          {" "}
           Soe Wai Yan Aung
         </a>
         .

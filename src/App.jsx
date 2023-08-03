@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import FormSection from "./Components/FormSection";
 import HeroSection from "./Components/HeroSection";
 import clsx from "clsx";
@@ -14,6 +15,7 @@ function App() {
       <div className="container">
         <HeroSection />
         <FormSection />
+        <Footer />
       </div>
     </div>
   );

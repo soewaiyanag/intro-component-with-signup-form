@@ -50,9 +50,9 @@ const Form = () => {
           claim your free trial
         </button>
       </form>
-      <p>
-        By clicking the button, you are agreeing to our
-        <a href="#" className="text-primary-1">
+      <p className="mt-5 text-grayish-blue text-center">
+        By clicking the button, you are agreeing to our{" "}
+        <a href="#" className="text-primary-1 font-medium">
           Terms and Services
         </a>
       </p>

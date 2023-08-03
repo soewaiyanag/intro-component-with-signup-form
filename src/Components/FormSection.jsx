@@ -3,7 +3,7 @@ import FreeTrialMessage from "./FreeTrialMessage";
 
 const FormSection = () => {
   return (
-    <div className="container">
+    <div>
       <FreeTrialMessage />
       <Form />
     </div>

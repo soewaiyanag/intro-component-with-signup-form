@@ -4,8 +4,8 @@ const FreeTrialMessage = () => {
   return (
     <div
       className={clsx(
-        "bg-accent text-white p-4 rounded-lg",
-        "text-center font-light"
+        "bg-accent text-white p-5 rounded-lg",
+        "text-center font-light mb-8"
       )}
     >
       <span className="font-semibold">Try it free 7 days</span> then{" "}
