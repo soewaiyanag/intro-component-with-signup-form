@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 const Form = () => {
   const inputClass = clsx(
-    "p-4 text-dark-blue focus:outline-none border rounded-md",
+    "p-4 text-dark-blue focus:outline-none border-2 rounded-md",
     "placeholder:text-dark-blue placeholder:font-medium placeholder:text-opacity-70"
   );
   return (
@@ -44,7 +44,7 @@ const Form = () => {
           type="submit"
           className={clsx(
             "uppercase text-white bg-primary-2 rounded-md p-4",
-            "shadow-bottom font-medium focus:shadow-none transition-shadow"
+            "shadow-bottom shadow-primary-2-dark font-medium focus:shadow-none transition-shadow"
           )}
         >
           claim your free trial
