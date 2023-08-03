@@ -1,12 +1,21 @@
-import { useState } from "react";
+import FormSection from "./Components/FormSection";
+import HeroSection from "./Components/HeroSection";
+import clsx from "clsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1 className="text-center">Vite + React</h1>
-    </>
+    <div
+      className={clsx(
+        "bg-intro-mobile md:bg-intro-desktop min-h-screen",
+        "bg-primary-1 bg-opacity-90",
+        "font-poppins"
+      )}
+    >
+      <div className="container">
+        <HeroSection />
+        <FormSection />
+      </div>
+    </div>
   );
 }
 
