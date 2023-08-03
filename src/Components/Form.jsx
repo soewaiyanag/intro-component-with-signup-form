@@ -2,12 +2,12 @@ import clsx from "clsx";
 
 const Form = () => {
   const inputClass = clsx(
-    "p-4 text-dark-blue outline-none",
+    "p-4 text-dark-blue focus:outline-none border rounded-md",
     "placeholder:text-dark-blue placeholder:font-medium placeholder:text-opacity-70"
   );
   return (
-    <div className="">
-      <form action="#" className="flex flex-col">
+    <div className="bg-white p-6 rounded-lg">
+      <form action="#" className="flex flex-col gap-4">
         <input
           type="text"
           name="first-name"
@@ -42,7 +42,10 @@ const Form = () => {
         />
         <button
           type="submit"
-          className="uppercase text-white bg-primary-2 rounded-md"
+          className={clsx(
+            "uppercase text-white bg-primary-2 rounded-md p-4",
+            "shadow-bottom font-medium focus:shadow-none transition-shadow"
+          )}
         >
           claim your free trial
         </button>

@@ -3,10 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .shadow-bottom {
+    box-shadow: 0px 5px 0px 0px theme("colors.primary-2-dark");
+    -webkit-box-shadow: 0px 5px 0px 0px theme("colors.primary-2-dark");
+    -moz-box-shadow: 0px 5px 0px 0px theme("colors.primary-2-dark");
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }

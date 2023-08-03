@@ -17,6 +17,7 @@ export default {
       colors: {
         "primary-1": "hsl(0, 100%, 74%)",
         "primary-2": "hsl(154, 59%, 51%)",
+        "primary-2-dark": "hsl(154, 59%, 40%)",
         accent: "hsl(248, 32%, 49%)",
         "dark-blue": "hsl(249, 10%, 26%)",
         "grayish-blue": "hsl(246, 25%, 77%)",
